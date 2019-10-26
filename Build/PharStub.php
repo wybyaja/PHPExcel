@@ -1,4 +1,5 @@
 <?php
+
 spl_autoload_register(function ($class) {
     include 'phar://PHPExcel/' . str_replace('_', '/', $class) . '.php';
 });
@@ -12,3 +13,5 @@ try {
 }
 
 __HALT_COMPILER();
+
+//hai guys
